@@ -1,6 +1,8 @@
 {
-  "name": "vite-testing-library-react",
+  "name": "vite-react-jest",
+  "description": "A React/Vite development environment that supports testing using Jest and @testing-library/react.",
   "version": "0.1.0",
+  "author": "Kurt Stephens <kstephens6054@gmail.com> (https://github.com/kstephens6054)",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
