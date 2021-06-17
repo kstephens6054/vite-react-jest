@@ -1,3 +1,6 @@
+    <img width="180" src="https://vitejs.dev/logo.svg" alt="Vite logo">
+
+
 ## Running React on Repl.it
 
 [React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
