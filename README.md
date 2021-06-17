@@ -1,16 +1,39 @@
-    <img width="180" src="https://vitejs.dev/logo.svg" alt="Vite logo">
+![Vite + React + Jest logo](static/vite-react-jest-120.png)
 
+## Vite + React + Jest Boilerplate
 
-## Running React on Repl.it
+> Add Jest tests to your Vite + React development
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+* Jest
+* @testing-library/react
+* @testing-library/jest-dom
+* @testing-library/user-event
+* react-test-renderer
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+This setup includes the necessary Babel and Jest
+configuration files to run Jest tests under the Vite
+development environment.
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+### Installation
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+`git clone https://github.com/kstephens6054/vite-react-jest.git`
 
-By default, Repl.it runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+`npm install` 
+
+or  
+
+`yarn install`
+
+### Included scripts
+
+`# Start the Vite development server`  
+`npm run dev`    
+
+`# Build the app for deployment`  
+`npm run build`  
+
+`# Serve the build using Vite`  
+`npm run build`  
+
+`# Run the tests with Jest`  
+`npm run test`  
